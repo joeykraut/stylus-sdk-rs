@@ -87,6 +87,8 @@ impl SolType for Bytes {
 
     const ENCODED_SIZE: Option<usize> = None;
 
+    const PACKED_ENCODED_SIZE: Option<usize> = None;
+
     const SOL_NAME: &'static str = "bytes";
 
     #[inline]
